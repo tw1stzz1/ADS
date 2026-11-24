@@ -1,4 +1,4 @@
-// Copyright 2026 Kutyaev Egor
+// Copyright 2026
 #ifndef LIB_QUEUE_ON_MASS_QUEUE_ON_MASS_H_
 #define LIB_QUEUE_ON_MASS_QUEUE_ON_MASS_H_
 

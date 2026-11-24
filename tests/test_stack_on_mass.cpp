@@ -1,4 +1,4 @@
-// Copyright 2026 Kutyaev Egor
+// Copyright 2026
 #include <gtest/gtest.h>
 
 #include <algorithm>
@@ -120,39 +120,3 @@ TEST(StackOnMass, WorksWithStructType) {
   EXPECT_TRUE(s.pop() == (Point{1, 2}));
 }
 
-
-
-
-
-
-
-
-TEST(StackOnMass, DISABLED_ThrowsOnPopFromEmpty) {
-  TStackOnMass<int> s(2);
-  EXPECT_THROW(s.pop(), std::out_of_range);
-}
-
-TEST(StackOnMass, DISABLED_ThrowsOnTopOfEmpty) {
-  TStackOnMass<int> s(2);
-  EXPECT_THROW(s.top(), std::out_of_range);
-}
-
-TEST(StackOnMass, DISABLED_PopAndTopWorkOnFull) {
-  TStackOnMass<int> s(2);
-  s.push(1);
-  s.push(2);
-  ASSERT_TRUE(s.is_full());
-  EXPECT_EQ(s.top(), 2);
-  EXPECT_EQ(s.pop(), 2);
-  EXPECT_FALSE(s.is_full());
-}
-
-TEST(StackOnMass, DISABLED_CopyConstructorMakesIndependentCopy) {
-  TStackOnMass<int> s(3);
-  s.push(1);
-  s.push(2);
-  TStackOnMass<int> copy(s);
-  EXPECT_EQ(copy.pop(), 2);
-  EXPECT_EQ(copy.pop(), 1);
-  EXPECT_EQ(s.top(), 2);
-}

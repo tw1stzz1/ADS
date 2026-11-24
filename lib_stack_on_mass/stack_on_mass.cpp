@@ -1,4 +1,4 @@
-// Copyright 2026 Kutyaev Egor
+// Copyright 2026
 #ifndef LIB_STACK_ON_MASS_STACK_ON_MASS_CPP_
 #define LIB_STACK_ON_MASS_STACK_ON_MASS_CPP_
 

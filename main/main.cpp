@@ -1,4 +1,4 @@
-// Copyright 2026 Kutyaev Egor
+// Copyright 2026
 #define EASY_EXAMPLE
 #ifdef EASY_EXAMPLE
 
