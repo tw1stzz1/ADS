@@ -1,7 +1,11 @@
 // Copyright 2024 Marina Usova
 
 #include <gtest/gtest.h>
+<<<<<<< HEAD:tests/test_easy_example.cpp
 #include "../lib_algorithms/algorithm.h"
+=======
+#include "../lib_algoritms/algoritms.h"
+>>>>>>> 1942c50908a578b101004428a2ad8b787f9a4662:tests/test_algoritms.cpp
 
 #define EPSILON 0.000001
 
