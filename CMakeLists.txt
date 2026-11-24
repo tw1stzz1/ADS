@@ -13,7 +13,6 @@ include(cmake/function.cmake)         # подхватываем функции,
                                       # для простоты мы объединили наборы команд для создания статической библиотеки
 								      # и для создания исполняемого проекта в отдельные функции
 
-<<<<<<< HEAD
 add_subdirectory(lib_algorithms)    # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_easy_example
 
 add_subdirectory(lib_stack_on_mass)
@@ -25,13 +24,6 @@ add_subdirectory(lib_double_list)
 
 add_subdirectory(main)                # подключаем дополнительный CMakeLists.txt из подкаталога с именем main
 
-=======
-add_subdirectory(lib_algoritms)    # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_algoritms
-
-add_subdirectory(main)                # подключаем дополнительный CMakeLists.txt из подкаталога с именем main
-
-add_subdirectory(lib_stack_on_mass)   # 
->>>>>>> 1942c50908a578b101004428a2ad8b787f9a4662
 
 option(BTEST "build test?" ON)        # указываем подключаем ли google-тесты (ON или YES) или нет (OFF или NO)
 

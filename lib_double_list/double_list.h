@@ -1,4 +1,4 @@
-// Copyright 2026
+// Copyright 2026 Kutyaev Egor
 #pragma once
 
 #include <cstddef>

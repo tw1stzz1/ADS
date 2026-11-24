@@ -1,15 +1,11 @@
-// Copyright 2026
+// Copyright 2026 Kutyaev Egor
 #define EASY_EXAMPLE
 #ifdef EASY_EXAMPLE
 
 #include <iomanip>
-<<<<<<< HEAD
 #include <iostream>
 
 #include "../lib_algorithms/algorithm.h"
-=======
-#include "../lib_algoritms/algoritms.h"
->>>>>>> 1942c50908a578b101004428a2ad8b787f9a4662
 
 int main() {
   int a, b;

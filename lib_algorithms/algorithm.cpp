@@ -1,4 +1,4 @@
-// Copyright 2026
+// Copyright 2026 Kutyaev Egor
 #ifndef LIB_ALGORITHMS_ALGORITHM_CPP_
 #define LIB_ALGORITHMS_ALGORITHM_CPP_
 #include "../lib_algorithms/algorithm.h"
