@@ -4,7 +4,7 @@ class dsu {
 	size_t _size;
 	unsigned int* _rank;
 public:
-	dsu(size_t size) {
+	explicit dsu(size_t size) {
 		_size = size;
 		_parent = new unsigned int[size];
 		_rank = new unsigned int[size];
